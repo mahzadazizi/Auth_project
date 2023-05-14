@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Http\Mail\MyTestEmail;
 class sendMailController extends Controller
 {
     public function send()
