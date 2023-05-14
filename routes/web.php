@@ -35,7 +35,7 @@ Route::get('/match', function () {
     return view('match');
 });
 
-
+Route::get('/mail/send',[SendMailController::class , 'send']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
